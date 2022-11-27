@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+.backCard{
+	background-color:#BCCEF8;
+	background-image: url("../image/pattern-bg.svg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size:cover;
+	height:100vh;
+	width:100%;	
+	padding-top:100px;
+}
+.card{
+	margin:auto;
+	width:350px;
+	height:500px;
+	background-color:#fff;
+	box-shadow: 10px 10px 14px #888888;
+	border:none;
+	border-radius:20px;
+}
+.card-image img{
+	height:170px;
+	width:100%;
+	object-fit:cover;
+	border-radius:20px 20px 0 0;
+}
+.card-content{
+	text-align:center;
+}
+.card-content p{
+	font-family:merienda;
+	font-size:16px;
+	font-weight:600;
+	line-height:1.8;
+}
+.card-content h1{
+	line-height:2.2;
+	font-family:sans-serif;
+	font-size:30px;
+	font-weight:800;
+}
+.plans{
+	border:0.5px solid #98A8F8;
+	border-radius:12px;
+	background-color:#EAEAEA;
+	padding:2px 10px;
+	margin:10px 20px;
+	
+}
+.icon {
+	margin-right:15px;
+	float:left;
+	margin-left:15px;
+}
+.text{
+	text-align:left;
+	margin-right:45px;
+	margin-top:7px;
+	float:left;
+	font-family:sans-serif;
+
+}
+.text-link a{
+	display:inline-block;
+	margin-top:15px;
+	color:blue; 	
+}
+.clearfl::after{
+	content: "";
+  clear: both;
+  display: table;
+}
+.btn a{
+	display:block;
+	text-align:center;
+}
+.btn1 a{
+	text-decoration:none;
+	font-size:20px;
+	border:none;
+	border-radius:15px;
+	background-color:#4649FF;
+	color:#fff;
+	padding:10px;
+	margin:0 20px;
+	cursor:pointer;
+	letter-spacing:1.2px;
+}
+.btn2 a{
+	cursor:pointer;
+	display:inline-block;
+	font-size:16px;
+	margin-top:15px;
+	margin-left:130px;
+	text-decoration:none;
+	font-weight:700;
+	color:gray;
+	font-family:sans-serif;
+}
